@@ -139,7 +139,7 @@ Paper text:
 
 Respond with only the summary, no preamble."""
 
-        return _generate_with_retry(self.model, prompt, max_output_tokens=1000)
+        return _generate_with_retry(self.model, prompt, max_output_tokens=7000)
 
     def answer_question(self, question: str, top_k: int = 5) -> Tuple[str, List[str]]:
         """

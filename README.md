@@ -7,8 +7,7 @@ just the model's general knowledge.
 
 ## 🌐 Live Demo
 
-**Project Link:** research-paper-summarizer-q-a-system
-.streamlit.app
+**Project Link:** <https://research-paper-summarizer-q-a-system.streamlit.app>
 
 ## How it works
 

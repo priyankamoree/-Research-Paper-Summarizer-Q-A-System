@@ -34,7 +34,7 @@ def clean_text(text: str) -> str:
     return text.strip()
 
 
-def chunk_text(text: str, chunk_size: int = 1000, overlap: int = 150) -> List[str]:
+def chunk_text(text: str, chunk_size: int = 800, overlap: int = 150) -> List[str]:
     """
     Split text into overlapping chunks for embedding + retrieval.
 

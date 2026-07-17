@@ -5,6 +5,11 @@ and ask follow-up questions that are answered using retrieval-augmented
 generation (RAG) — so answers are grounded in the paper's actual text, not
 just the model's general knowledge.
 
+## 🌐 Live Demo
+
+**Project Link:** research-paper-summarizer-q-a-system
+.streamlit.app
+
 ## How it works
 
 1. **PDF extraction** (`pdf_utils.py`) — pulls raw text out of the uploaded PDF, page by page.

@@ -91,7 +91,7 @@ class PaperQAEngine:
         )
         self.chunk_embeddings = embeddings
 
-    def retrieve(self, query: str, top_k: int = 5) -> List[Tuple[str, float]]:
+    def retrieve(self, query: str, top_k: int = 3) -> List[Tuple[str, float]]:
         """Return the top_k chunks most relevant to the query, with similarity scores."""
         if self.chunk_embeddings is None or len(self.chunks) == 0:
             return []
